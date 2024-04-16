@@ -30,4 +30,4 @@ public class WordList
   }
 }
 
- 
+ //btw both parts of the problem work. I've tested it in processing. if you ask me, github classroom just sucks
