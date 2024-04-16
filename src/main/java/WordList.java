@@ -1,4 +1,4 @@
-import java.util.*;
+mport java.util.*;
 
 public class WordList
 {
@@ -18,17 +18,16 @@ public class WordList
      }
     return n;
    }
-
-    
-  }
-
-  public void removeWordsOfLength(int len)
-  {
-    for(int i = 0; i < myList.size(); i++){
+  public void removeWordsOfLength(int len){
+       for(int i = 0; i < myList.size(); i++){
       if(myList.get(i).length == len){
         myList.remove(i);
-        i--
-      }
+        i--;
+      
     }
   }
+    
+  }
 }
+
+ 
